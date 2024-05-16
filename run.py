@@ -19,6 +19,11 @@ def resume():
     return render_template("resume.html")
 
 
+@app.route("/my_projects")
+def my_projects():
+    return render_template("my_projects.html")
+
+
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
