@@ -18,6 +18,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-my-projects{
+
+}
+
 .bg-color-contact {
     background-color: #fff;
 }
@@ -337,6 +341,61 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* ---------------------------------------- My Projects */
+.my-project-list {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.project {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.projects-description h4 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.projects-description p {
+    margin-bottom: 50px;
+}
+
+.projects-description a i {
+    text-decoration: none;
+    color: #ff004f;
+    font-size: 20px;
+    line-height: 20px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.site-btn {
+    margin: auto 10px;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 15px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 
 /* ----------------------------------------Contact Form */
