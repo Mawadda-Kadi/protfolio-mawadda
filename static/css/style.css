@@ -18,8 +18,8 @@
     background-color: #9b59b6;
 }
 
-.bg-color-my-projects{
-
+.bg-color-my-projects {
+    background-color: #f4f4f4;
 }
 
 .bg-color-contact {
@@ -70,9 +70,7 @@ h4 {
 }
 
 .section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+    padding: 30px;
 }
 
 .history-heading,
@@ -346,56 +344,71 @@ footer {
 /* ---------------------------------------- My Projects */
 .my-project-list {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
-
+    font-size: 12px;
 }
 
 .project {
+    background-color: #007bff;
+    color: #fff;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     margin-bottom: 50px;
+    padding: 20px;
+    width: calc(50% - 40px);
+    /* Adjust the width to fit two projects per row with margins */
+    box-sizing: border-box;
+    /* Ensures padding and border are included in the width */
 }
 
 .project img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
+    margin-top: 20px;
+    object-fit: cover;
+}
 
+.projects-description {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .projects-description h4 {
     font-weight: 400;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .projects-description p {
-    margin-bottom: 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-.projects-description a i {
-    text-decoration: none;
-    color: #ff004f;
-    font-size: 20px;
-    line-height: 20px;
-    background: #fff;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    text-align: center;
+.project-buttons {
+    text-align: left;
+    margin-top: 10px;
+    /* Add margin to separate buttons from the description */
 }
 
-.site-btn {
-    margin: auto 10px;
-    width: fit-content;
-    border: 1px solid #ff004f;
-    padding: 15px 15px;
-    border-radius: 6px;
+.project-buttons a {
+    display: inline-block;
     text-decoration: none;
-    color: #000;
-    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 7px 7px;
+    margin: 5px 0;
+    /* Add vertical margin for spacing between buttons */
+    border-radius: 5px;
+}
+
+.project-buttons a i {
+    margin-right: 5px;
 }
 
 /* ----------------------------------------Contact Form */

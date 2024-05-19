@@ -1,61 +1,99 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="container-fluid">
-    <div class="row">
+    <div class="row justify-content-center">
         <div class="col-md-10 bg-color-my-projects section-column">
-            <h3 class="section-heading uppercase">
+            <h3 class="section-heading uppercase text-center">
                 My Projects
             </h3>
-            <div class="my-project-list">
-                <div class="project">
+            <div class="my-project-list row">
+                <div class="project col-md-5 m-3 p-3">
                     <div class="projects-description">
                         <h4>Project 1</h4>
                         <p>description</p>
-                        <a href="#" class="site-btn" target="_blank"><i class="fa-solid fa-link"></i></a>
-                        <a href="#" class="site-btn" target="_blank" aria-hidden="true">View Site</a>
                     </div>
-                    <img src="" alt="">
-                </div>
-                <div class="project">
-                    <div class="projects-description">
-                        <h4>Project 2</h4>
-                        <p>description</p>
-                        <a href="#" class="site-btn" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a href="#" class="site-btn" target="_blank" aria-hidden="true">View Site</a>
-                    </div>
-                    <img src="" alt="">
-                </div>
-                <div class="project">
-                    <div class="projects-description">
-                        <h4>Project 3</h4>
-                        <p>description</p>
-                        <a href="#" class="site-btn" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a href="#" class="site-btn" target="_blank" aria-hidden="true">View Site</a>
-                    </div>
-                    <img src="" alt="">
-                </div>
-                <div class="project">
-                    <div class="projects-description">
-                        <h4>Project 4</h4>
-                        <p>description</p>
-                        <a href="#" class="site-btn" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a href="https://github.com/Mawadda-Kadi/altliebe/tree/main" class="site-btn" target="_blank" aria-hidden="true">
+                    <img src="{{ url_for('static', filename='images/card-game.png') }}" alt="Card Game Image" loading="lazy">
+                    <div class="project-buttons">
+                        <a href="https://mawadda-kadi.github.io/LGBTQ-Club-Project/index.html" class="site-btn"
+                            target="_blank" aria-hidden="true">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Site
+                        </a>
+                        <a href="https://github.com/Mawadda-Kadi/LGBTQ-Club-Project" class="site-btn" target="_blank"
+                            aria-hidden="true">
                             <i class="fa-brands fa-github"></i> GitHub
                         </a>
                     </div>
-                    <img src="" alt="">
                 </div>
-                <div class="project">
+                <div class="project col-md-5 m-3 p-3">
+                    <div class="projects-description">
+                        <h4>Project 2</h4>
+                        <p>description</p>
+                    </div>
+                    <img src="{{ url_for('static', filename='images/card-game.png') }}" alt="Card Game Image" loading="lazy">
+                    <div class="project-buttons">
+                        <a href="https://mawadda-kadi.github.io/card-game-memory/" class="site-btn" target="_blank"
+                            aria-hidden="true">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Site
+                        </a>
+                        <a href="https://github.com/Mawadda-Kadi/card-game-memory" class="site-btn" target="_blank"
+                            aria-hidden="true">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project col-md-5 m-3 p-3">
+                    <div class="projects-description">
+                        <h4>Project 3</h4>
+                        <p>description</p>
+                    </div>
+                    <img src="" alt="" loading="lazy">
+                    <div class="project-buttons">
+                        <a href="https://remote-working-survey-7d3459fee416.herokuapp.com/" class="site-btn"
+                            target="_blank" aria-hidden="true">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Site
+                        </a>
+                        <a href="https://github.com/Mawadda-Kadi/remote-working-survey" class="site-btn"
+                            target="_blank" aria-hidden="true">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project col-md-5 m-3 p-3">
+                    <div class="projects-description">
+                        <h4>Project 4</h4>
+                        <p>description</p>
+                    </div>
+                    <img src="" alt="" loading="lazy">
+                    <div class="project-buttons">
+                        <a href="https://altliebe-e30d7366fcef.herokuapp.com/" class="site-btn" target="_blank"
+                            aria-hidden="true">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Site
+                        </a>
+                        <a href="https://github.com/Mawadda-Kadi/altliebe/tree/main" class="site-btn" target="_blank"
+                            aria-hidden="true">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project col-md-5 m-3 p-3">
                     <div class="projects-description">
                         <h4>Project 5</h4>
                         <p>description</p>
-                        <a href="#" class="site-btn" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a href="#" class="site-btn" target="_blank" aria-hidden="true">View Site</a>
                     </div>
-                    <img src="" alt="">
+                    <img src="" alt="" loading="lazy">
+                    <div class="project-buttons">
+                        <a href="https://leaf-health-detector-d9e18fb74a55.herokuapp.com/" class="site-btn"
+                            target="_blank" aria-hidden="true">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Site
+                        </a>
+                        <a href="https://github.com/Mawadda-Kadi/mildew-detection-in-cherry-leaves" class="site-btn"
+                            target="_blank" aria-hidden="true">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
                 </div>
-
             </div>
         </div>
-
-        {% endblock %}
+    </div>
+</section>
+{% endblock %}
