@@ -350,37 +350,73 @@ footer {
     justify-content: center;
     text-align: center;
     font-size: 12px;
+    position: relative;
+    /* Needed for absolute positioning of .projects-description */
 }
 
 .project {
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 10px;
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: white;
     position: relative;
-    overflow: hidden;
-    margin-bottom: 50px;
-    padding: 20px;
-    width: calc(50% - 40px);
-    /* Adjust the width to fit two projects per row with margins */
-    box-sizing: border-box;
-    /* Ensures padding and border are included in the width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    /* Add margin for spacing */
+}
+
+.project:hover {
+    transform: translateY(20px);
 }
 
 .project img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
+    height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.project:hover img {
+    opacity: 0.5;
 }
 
 .projects-description {
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
+    position: absolute;
+    /* Absolute positioning within .my-project-list */
+    z-index: 4;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project:hover .projects-description {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .projects-description h4 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -388,12 +424,17 @@ footer {
 .projects-description p {
     font-size: 16px;
     margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: left;
 }
 
 .project-buttons {
     text-align: left;
     margin-top: 10px;
-    /* Add margin to separate buttons from the description */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-buttons a {
@@ -401,10 +442,15 @@ footer {
     text-decoration: none;
     color: #fff;
     background: #000;
-    padding: 7px 7px;
-    margin: 5px 0;
-    /* Add vertical margin for spacing between buttons */
+    padding: 7px 10px;
+    margin: 5px 5px 0 0;
     border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.project-buttons a:hover {
+    background: dodgerblue;
+    color: white;
 }
 
 .project-buttons a i {
@@ -441,5 +487,30 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+    .projects-description {
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .projects-description h4 {
+        font-size: 18px;
+    }
+
+    .projects-description p {
+        font-size: 14px;
+    }
+
+    .project-buttons a {
+        padding: 5px 8px;
+        font-size: 14px;
     }
 }
