@@ -1,7 +1,7 @@
 import os
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, flash
 from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail
+from sendgrid.helpers.mail import Mail, Email, To, Content
 
 if os.path.exists("env.py"):
     import env
@@ -30,25 +30,26 @@ def contact():
         email = request.form['email']
         projectsummary = request.form['projectsummary']
 
-        message = Mail(
-            from_email=email,
-            to_emails='mawadda.kadi@gmail.com',
-            subject='New Project Request',
-            plain_text_content=f"Name: {name}\nEmail: {email}\n\nProject Description:\n{projectsummary}"
-        )
+        from_email = Email('mawadda.kadi@gmail.com')
+        to_email = To('mawadda.kadi@gmail.com')
+        subject = 'New Project Request'
+        content = Content('text/plain', f"Name: {name}\nEmail: {email}\n\nProject Description:\n{projectsummary}")
+
+        message = Mail(from_email, to_email, subject, content)
+        message.reply_to = Email(email)
 
         try:
             sg = SendGridAPIClient(SENDGRID_API_KEY)
             response = sg.send(message)
-            return redirect(url_for('success'))
+            print(f"Response status code: {response.status_code}")
+            print(f"Response body: {response.body}")
+            print(f"Response headers: {response.headers}")
+            flash('Your message has been sent!', 'success')
         except Exception as e:
-            print(str(e))
+            print(f"An error occurred: {str(e)}")
+            flash('An error occurred while sending your message. Please try again.', 'danger')
 
     return render_template('contact.html')
-
-@app.route('/success')
-def success():
-    return 'Your message has been sent!'
 
 if __name__ == "__main__":
     app.run(

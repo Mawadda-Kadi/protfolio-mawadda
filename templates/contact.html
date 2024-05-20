@@ -7,6 +7,17 @@
             <h5 class="uppercase text-center">Let's work together!</h5>
 
             <div class="center-form">
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                <div class="flash-messages">
+                    {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}" role="alert">
+                        {{ message }}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% endwith %}
                 <form action="{{ url_for('contact') }}" method="post">
                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
