@@ -1,122 +1,92 @@
 {% extends "base.html" %}
 {% block content %}
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="section-heading uppercase">
-                            Personal Info
-                        </h3>
-                    </div>
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 bg-color-personal-info section-column p-4 rounded shadow-sm">
+            <h3 class="section-heading uppercase">Personal Info</h3>
+            <div class="personal-info-item">
+                <div class="key">
+                    <p class="uppercase">Name:</p>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Name:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Mawadda Kadi
-                        </p>
-                    </div>
+                <div class="value">
+                    <p>Mawadda Kadi</p>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Address:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Carl-Schorlemmer-Ring 17
-                            <br>06122 Halle (Saale)</br>
-                            Deutchland
-                        </p>
-                    </div>
+            </div>
+            <div class="personal-info-item">
+                <div class="key">
+                    <p class="uppercase">Address:</p>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Phone:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            +49 176 42724602
-                        </p>
-                    </div>
+                <div class="value">
+                    <p>
+                        Carl-Schorlemmer-Ring 17
+                        <br>06122 Halle (Saale)</br>
+                        Deutschland
+                    </p>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Email:
-                        </p>
-                    </div>
-                    <div class="value">
+            </div>
+            <div class="personal-info-item">
+                <div class="key">
+                    <p class="uppercase">Phone:</p>
+                </div>
+                <div class="value">
+                    <p>+49 176 42724602</p>
+                </div>
+            </div>
+            <div class="personal-info-item">
+                <div class="key">
+                    <p class="uppercase">Email:</p>
+                </div>
+                <div class="value">
+                    <p>mawadda.kadi@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 bg-color-three-reasons section-column p-4 rounded shadow-sm">
+            <h3 class="section-heading uppercase">About Me</h3>
+            <div class="three-reasons-card">
+                <div class="d-flex align-items-start">
+                    <i class="three-reasons-icon fa fa-question"></i>
+                    <div>
+                        <h4 class="three-reasons-heading uppercase mb-2">What do I do?</h4>
                         <p>
-                            mawadda.kadi@gmail.com
+                            As a beginner in full stack development, I can create and manage web applications,
+                            handling both front-end and
+                            back-end tasks. Additionally, I specialize in data analysis, enabling me to extract
+                            meaningful insights and present them effectively.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 bg-color-three-reasons section-column">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading uppercase">About Me</h3>
+            <div class="three-reasons-card">
+                <div class="d-flex align-items-start">
+                    <i class="three-reasons-icon fa fa-thumbs-up"></i>
+                    <div>
+                        <h4 class="three-reasons-heading uppercase mb-2">How do I do it?</h4>
+                        <p>
+                            I use programming languages such as HTML, CSS, and JavaScript for front-end development
+                            and Python for back-end development and data
+                            analysis. A great user experience is created through effective design, along with
+                            optimized application speed, security, and reliability.
+                        </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
-                                <p>
-                                    As a beginner in full stack development, I can create and manage web applications, handling both front-end and
-                                    back-end tasks.
-                                    Additionally, I specialize in data analysis, enabling me to extract meaningful insights and present them effectively.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
-                                <p>
-                                    I use programming languages such as HTML, CSS, and JavaScript for front-end development and Python for back-end development and data
-                                    analysis. A great user experience is created through effective design, along with optimized application speed, security, and
-                                    reliability.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
-                                <p>
-                                    I am highly motivated to learn and apply new skills, bringing fresh ideas and enthusiasm to your team.
-                                    My unique combination of full stack development and data analysis expertise allows me to approach problems from
-                                    multiple angles, providing well-rounded solutions.
-                                    I can also work independently to ensure these qualities are consistently met.
-                                </p>
-                            </div>
-                        </div>
+            </div>
+            <div class="three-reasons-card">
+                <div class="d-flex align-items-start">
+                    <i class="three-reasons-icon fa fa-bolt"></i>
+                    <div>
+                        <h4 class="three-reasons-heading uppercase mb-2">Why hire me?</h4>
+                        <p>
+                            I am highly motivated to learn and apply new skills, bringing fresh ideas and enthusiasm
+                            to your team.
+                            My unique combination of full stack development and data analysis expertise allows me to
+                            approach problems from multiple angles, providing well-rounded solutions.
+                            I can also work independently to ensure these qualities are consistently met.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-
-    </section>
+    </div>
+</section>
 {% endblock %}
