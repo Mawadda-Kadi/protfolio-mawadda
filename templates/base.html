@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ get_locale() }}">
 
 <head>
     <meta charset="UTF-8">
@@ -14,46 +14,57 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
 
     <!-- Favicon Links -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicons/apple-touch-icon.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicons/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicons/favicon-16x16.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="{{ url_for('static', filename='favicons/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ url_for('static', filename='favicons/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="{{ url_for('static', filename='favicons/favicon-16x16.png') }}">
 
-
-    <title>Mawadda Kadi</title>
+    <title>{{ _('Mawadda Kadi') }}</title>
 </head>
 
 <body>
+
     <!-- Header -->
     <header>
         <div class="row no-gutters">
+
+            <!-- Profile Image -->
             <a class="col-md-4 logo" href="{{ url_for('index') }}"></a>
             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
+
+                    <!-- Heading -->
                     <div class="col heading">
                         <h1 class="name">Mawadda Kadi</h1>
-                        <h2 class="title"> Full Stack Developer</h2>
+                        <h2 class="title"> {{ _('Full Stack Developer') }}</h2>
                     </div>
                 </div>
+
+                <!-- Navbar -->
                 <div class="row no-gutters">
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                                <a href="{{ url_for('index') }}" class="hvr-sweep-to-bottom"><i
-                                        class="fa fa-home"aria-hidden="true"></i><span>Home</span></a>
+                                <a href="{{ url_for('index') }}" class="hvr-sweep-to-bottom"><i class="fa fa-home"
+                                        aria-hidden="true"></i><span>{{ _('Home') }}</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
                                 <a href="{{ url_for('resume') }}" class="hvr-sweep-to-bottom"><i
-                                        class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                                        class="fa fa-graduation-cap" aria-hidden="true"></i><span>{{ _('Resume')
+                                        }}</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-my-projects menuitem">
                                 <a href="{{ url_for('my_projects') }}" class="hvr-sweep-to-bottom"><i
-                                        class="fa-solid fa-list-check" aria-hidden="true"></i><span>My Projects</span></a>
+                                        class="fa-solid fa-list-check" aria-hidden="true"></i><span>{{ _('My
+                                        Projects') }}</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
                                 <a href="{{ url_for('contact') }}" class="hvr-sweep-to-bottom"><i
-                                        class="fa-solid fa-envelope" aria-hidden="true"></i><span>Contact</span></a>
+                                        class="fa-solid fa-envelope" aria-hidden="true"></i><span>{{ _('Contact')
+                                        }}</span></a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
@@ -67,38 +78,39 @@
         {% endblock %}
     </main>
 
+    <!-- Footer -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
+                <h5 class="uppercase general-sub">{{ _('About') }}</h5>
                 <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural
-                    and design thinking.
+                    {{ _('Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for
+                    structural and design thinking.') }}
                 </p>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download</h5>
+                <h5 class="uppercase general-sub">{{ _('Download') }}</h5>
                 <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
+                    {{ _('Need a printable version of my CV? Download it here.') }}
                     <a href="{{ url_for('static', filename='cv/cv') }}" target="_blank" class="cv-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
+                        <span class="sr-only">{{ _('Download link.') }}</span>
                     </a>
                 </p>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
+                <h5 class="uppercase general-sub">{{ _('Social') }}</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
+                            <span class="sr-only">{{ _('LinkedIn') }}</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa-brands fa-github" aria-hidden="true"></i>
-                            <span class="sr-only">GitHub</span>
+                            <span class="sr-only">{{ _('GitHub') }}</span>
                         </a>
                     </li>
                 </ul>
