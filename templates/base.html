@@ -130,9 +130,9 @@
     <!-- JavaScript for Language Toggle -->
     <script>
         document.getElementById('lang-toggle').addEventListener('change', function () {
-            var currentLang = '{{ g.current_lang }}';
+            var currentLang = "{{ g.current_lang }}";
             var newLang = currentLang === 'de' ? 'en' : 'de';
-            var url = '{{ url_for('switch_language', language='') }}' + newLang;
+            var url = "{{ url_for('switch_language', language='') }}" + newLang;
             window.location.href = url;
         });
     </script>
