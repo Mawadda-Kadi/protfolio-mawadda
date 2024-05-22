@@ -626,3 +626,24 @@ button[type="submit"] {
         font-size: 14px;
     }
 }
+
+@media (min-width: 768px) {
+    .three-reasons-card {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .three-reasons-card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .three-reasons-card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
