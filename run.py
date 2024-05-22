@@ -43,9 +43,6 @@ def before_request():
     g.current_lang = lang
     logging.debug(f"Current language set to: {lang}")
 
-    #g.current_lang = lang
-    #g.locale = lang
-
 
 
 @app.route("/")
@@ -104,4 +101,4 @@ if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
-        debug=True)
+        debug=False)
