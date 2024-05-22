@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-21 19:12+0000\n"
+"POT-Creation-Date: 2024-05-21 21:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,64 +17,72 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/base.html:24
+#: templates/base.html:24 templates/base.html:37
 msgid "Mawadda Kadi"
 msgstr ""
 
-#: templates/base.html:41
+#: templates/base.html:38
 msgid "Full Stack Developer"
 msgstr ""
 
-#: templates/base.html:51
+#: templates/base.html:47
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:55
+#: templates/base.html:52
 msgid "Resume"
 msgstr ""
 
-#: templates/base.html:60
+#: templates/base.html:58
 msgid ""
 "My\n"
 "                                        Projects"
 msgstr ""
 
-#: templates/base.html:65
+#: templates/base.html:64
 msgid "Contact"
 msgstr ""
 
-#: templates/base.html:85
+#: templates/base.html:75
+msgid "German"
+msgstr ""
+
+#: templates/base.html:77
+msgid "English"
+msgstr ""
+
+#: templates/base.html:92
 msgid "About"
 msgstr ""
 
-#: templates/base.html:87
+#: templates/base.html:94
 msgid ""
 "Full Stack Web Developer. Skilled in everything from HTML to Heroku. The "
 "capacity for\n"
 "                    structural and design thinking."
 msgstr ""
 
-#: templates/base.html:92
+#: templates/base.html:99
 msgid "Download"
 msgstr ""
 
-#: templates/base.html:94
+#: templates/base.html:101
 msgid "Need a printable version of my CV? Download it here."
 msgstr ""
 
-#: templates/base.html:97
+#: templates/base.html:104
 msgid "Download link."
 msgstr ""
 
-#: templates/base.html:102
+#: templates/base.html:109
 msgid "Social"
 msgstr ""
 
-#: templates/base.html:107
+#: templates/base.html:114
 msgid "LinkedIn"
 msgstr ""
 
-#: templates/base.html:113
+#: templates/base.html:120
 msgid "GitHub"
 msgstr ""
 

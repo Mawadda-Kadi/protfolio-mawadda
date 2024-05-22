@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-21 19:12+0000\n"
-"PO-Revision-Date: 2024-05-21 19:12+0000\n"
+"POT-Creation-Date: 2024-05-21 21:58+0000\n"
+"PO-Revision-Date: 2024-05-21 22:15+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -18,118 +18,131 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.14.0\n"
 
-#: templates/base.html:24
+#: templates/base.html:24 templates/base.html:37
 msgid "Mawadda Kadi"
-msgstr ""
+msgstr "Mawadda Kadi"
 
-#: templates/base.html:41
+#: templates/base.html:38
 msgid "Full Stack Developer"
-msgstr ""
+msgstr "Full Stack Developer"
 
-#: templates/base.html:51
+#: templates/base.html:47
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
-#: templates/base.html:55
+#: templates/base.html:52
 msgid "Resume"
-msgstr ""
+msgstr "Resume"
 
-#: templates/base.html:60
+#: templates/base.html:58
 msgid ""
 "My\n"
 "                                        Projects"
 msgstr ""
+"My\n"
+"                                        Projects"
 
-#: templates/base.html:65
+#: templates/base.html:64
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
-#: templates/base.html:85
+#: templates/base.html:75
+msgid "German"
+msgstr "German"
+
+#: templates/base.html:77
+msgid "English"
+msgstr "English"
+
+#: templates/base.html:92
 msgid "About"
-msgstr ""
+msgstr "About"
 
-#: templates/base.html:87
+#: templates/base.html:94
 msgid ""
 "Full Stack Web Developer. Skilled in everything from HTML to Heroku. The "
 "capacity for\n"
 "                    structural and design thinking."
 msgstr ""
+"Full Stack Web Developer. Skilled in everything from HTML to Heroku. The "
+"capacity for\n"
+"                    structural and design thinking."
 
-#: templates/base.html:92
+#: templates/base.html:99
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
-#: templates/base.html:94
+#: templates/base.html:101
 msgid "Need a printable version of my CV? Download it here."
-msgstr ""
+msgstr "Need a printable version of my CV? Download it here."
 
-#: templates/base.html:97
+#: templates/base.html:104
 msgid "Download link."
-msgstr ""
+msgstr "Download link."
 
-#: templates/base.html:102
+#: templates/base.html:109
 msgid "Social"
-msgstr ""
+msgstr "Social"
 
-#: templates/base.html:107
+#: templates/base.html:114
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
-#: templates/base.html:113
+#: templates/base.html:120
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: templates/contact.html:6
 msgid "Got a project in mind?"
-msgstr ""
+msgstr "Got a project in mind?"
 
 #: templates/contact.html:7
 msgid "Let's work together!"
-msgstr ""
+msgstr "Let's work together!"
 
 #: templates/contact.html:22
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: templates/contact.html:25
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/contact.html:27
 msgid "Project description"
-msgstr ""
+msgstr "Project description"
 
 #: templates/contact.html:30
 msgid "Send Project Request"
-msgstr ""
+msgstr "Send Project Request"
 
 #: templates/index.html:6
 msgid "Personal Info"
-msgstr ""
+msgstr "Personal Info"
 
 #: templates/index.html:9
 msgid "Name:"
-msgstr ""
+msgstr "Name:"
 
 #: templates/index.html:17
 msgid "Address:"
-msgstr ""
+msgstr "Address:"
 
 #: templates/index.html:29
 msgid "Phone:"
-msgstr ""
+msgstr "Phone:"
 
 #: templates/index.html:37
 msgid "Email:"
-msgstr ""
+msgstr "Email:"
 
 #: templates/index.html:45
 msgid "About Me"
-msgstr ""
+msgstr "About Me"
 
 #: templates/index.html:50
 msgid "What do I do?"
-msgstr ""
+msgstr "What do I do?"
 
 #: templates/index.html:52
 msgid ""
@@ -140,10 +153,16 @@ msgid ""
 "                            enabling me to extract meaningful insights "
 "and present them effectively."
 msgstr ""
+"As a beginner in full stack development, I can create and manage web "
+"applications,\n"
+"                            handling both front-end and back-end tasks. "
+"Additionally, I specialize in data analysis,\n"
+"                            enabling me to extract meaningful insights "
+"and present them effectively."
 
 #: templates/index.html:63
 msgid "How do I do it?"
-msgstr ""
+msgstr "How do I do it?"
 
 #: templates/index.html:65
 msgid ""
@@ -155,10 +174,17 @@ msgid ""
 "design, along with optimized application speed,\n"
 "                            security, and reliability."
 msgstr ""
+"I use programming languages such as HTML, CSS, and JavaScript for front-"
+"end\n"
+"                            development and Python for back-end "
+"development and data analysis. A great user\n"
+"                            experience is created through effective "
+"design, along with optimized application speed,\n"
+"                            security, and reliability."
 
 #: templates/index.html:77
 msgid "Why hire me?"
-msgstr ""
+msgstr "Why hire me?"
 
 #: templates/index.html:79
 msgid ""
@@ -172,52 +198,63 @@ msgid ""
 "independently to ensure these qualities are\n"
 "                            consistently met."
 msgstr ""
+"I am highly motivated to learn and apply new skills, bringing fresh ideas"
+" and\n"
+"                            enthusiasm to your team. My unique "
+"combination of full stack development and data\n"
+"                            analysis expertise allows me to approach "
+"problems from multiple angles, providing\n"
+"                            well-rounded solutions. I can also work "
+"independently to ensure these qualities are\n"
+"                            consistently met."
 
 #: templates/resume.html:8
 msgid "My History"
-msgstr ""
+msgstr "My History"
 
 #: templates/resume.html:13
 msgid "Code Institute in Dublin"
-msgstr ""
+msgstr "Code Institute in Dublin"
 
 #: templates/resume.html:14
 msgid "Attended an online course in Full Stack Development"
-msgstr ""
+msgstr "Attended an online course in Full Stack Development"
 
 #: templates/resume.html:17
 msgid "Alpha School in Halle, Germany"
-msgstr ""
+msgstr "Alpha School in Halle, Germany"
 
 #: templates/resume.html:18
 msgid "Attended a German language course from A1 to C1"
-msgstr ""
+msgstr "Attended a German language course from A1 to C1"
 
 #: templates/resume.html:21
 msgid ""
 "Unified Security Operations Center (911) in the Makkah Region, Saudi "
 "Arabia"
 msgstr ""
+"Unified Security Operations Center (911) in the Makkah Region, Saudi "
+"Arabia"
 
 #: templates/resume.html:22
 msgid "Worked as an emergency call operator"
-msgstr ""
+msgstr "Worked as an emergency call operator"
 
 #: templates/resume.html:25
 msgid "Effat University in Saudi Arabia"
-msgstr ""
+msgstr "Effat University in Saudi Arabia"
 
 #: templates/resume.html:26
 msgid "Administrative Assistant in the Quality Control Department"
-msgstr ""
+msgstr "Administrative Assistant in the Quality Control Department"
 
 #: templates/resume.html:33
 msgid "My Skills"
-msgstr ""
+msgstr "My Skills"
 
 #: templates/resume.html:43
 msgid "Front End"
-msgstr ""
+msgstr "Front End"
 
 #: templates/resume.html:45
 msgid ""
@@ -229,10 +266,17 @@ msgid ""
 "visually appealing and functional user\n"
 "                                interfaces."
 msgstr ""
+"I possess relatively strong front-end development skills, including HTML,"
+" CSS,\n"
+"                                and JavaScript. I am also experienced "
+"with frameworks such as Bootstrap for\n"
+"                                responsive design, enabling me to create "
+"visually appealing and functional user\n"
+"                                interfaces."
 
 #: templates/resume.html:59
 msgid "Back End"
-msgstr ""
+msgstr "Back End"
 
 #: templates/resume.html:61
 msgid ""
@@ -245,44 +289,53 @@ msgid ""
 "                                process and present information "
 "effectively."
 msgstr ""
+"I specialize in developing data-driven web applications, focusing on "
+"utilizing\n"
+"                                document-based data. My back-end skills "
+"include using Python, Flask, and Django for\n"
+"                                robust web development, along with data "
+"analysis tools like Pandas and NumPy to\n"
+"                                process and present information "
+"effectively."
 
 #: templates/resume.html:75
 #, python-format
-msgid "80% complete"
-msgstr ""
+msgid "80 percent complete"
+msgstr "80 percent complete"
 
 #: templates/resume.html:77
 msgid "HTML / HTML5"
-msgstr ""
+msgstr "HTML / HTML5"
 
 #: templates/resume.html:82 templates/resume.html:96
 #, python-format
-msgid "70% complete"
-msgstr ""
+msgid "70 percent complete"
+msgstr "70 percent complete"
 
 #: templates/resume.html:84
 msgid "CSS / CSS3"
-msgstr ""
+msgstr "CSS / CSS3"
 
 #: templates/resume.html:89
 #, python-format
-msgid "60% complete"
-msgstr ""
+msgid "60 percent complete"
+msgstr "60 percent complete"
 
 #: templates/resume.html:91
 msgid "JavaScript / jQuery"
-msgstr ""
+msgstr "JavaScript / jQuery"
 
 #: templates/resume.html:98
 msgid "Django / Python"
-msgstr ""
+msgstr "Django / Python"
 
 #: templates/resume.html:103
 #, python-format
-msgid "65% complete"
-msgstr ""
+msgid "65 percent complete"
+msgstr "65 percent complete"
 
 #: templates/resume.html:105
 msgid "SQL / NoSQL"
-msgstr ""
+msgstr "SQL / NoSQL"
+
 

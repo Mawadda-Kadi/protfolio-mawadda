@@ -1,6 +1,7 @@
 import os
-from flask import Flask, render_template, request, redirect, url_for, flash
-from flask_babel import Babel, _
+import logging
+from flask import Flask, render_template, request, redirect, url_for, flash,  make_response, g
+from flask_babel import Babel, lazy_gettext as _
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Email, To, Content
 
@@ -20,16 +21,44 @@ app.config['BABEL_SUPPORTED_LOCALES'] = ['de', 'en']
 
 babel = Babel(app)
 
+logging.basicConfig(level=logging.DEBUG)
 
-@babel.localeselector
+
 def get_locale():
-    # Determine the best match with our supported languages.
-     return request.args.get('lang') if request.args.get('lang') in app.config['BABEL_SUPPORTED_LOCALES'] else 'de'
+    lang = request.cookies.get('lang')
+    if not lang:
+        lang = request.accept_languages.best_match(app.config['BABEL_SUPPORTED_LOCALES'])
+    return lang
+
+babel.init_app(app, locale_selector=get_locale)
+
+@app.before_request
+def before_request():
+    lang = request.cookies.get('lang')
+    if not lang:
+        lang = request.accept_languages.best_match(app.config['BABEL_SUPPORTED_LOCALES'])
+        response = make_response(redirect(request.url))
+        response.set_cookie('lang', lang)
+        return response
+    g.current_lang = lang
+    logging.debug(f"Current language set to: {lang}")
+
+    #g.current_lang = lang
+    #g.locale = lang
+
 
 
 @app.route("/")
 def index():
     return render_template("index.html")
+
+
+@app.route('/switch_language/<language>')
+def switch_language(language=None):
+    response = make_response(redirect(request.referrer))
+    response.set_cookie('lang', language)
+    logging.debug(f"Switching language to: {language}")
+    return response
 
 
 @app.route("/resume")
