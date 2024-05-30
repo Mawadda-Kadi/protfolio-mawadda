@@ -174,7 +174,7 @@ header {
 }
 
 .logo {
-    background: url("../images/mawadda-profile.jpg");
+    background: url("../images/profile-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -534,7 +534,7 @@ footer {
 }
 
 .projects-description p {
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 10px;
     letter-spacing: 1px;
     font-weight: 400;

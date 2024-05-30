@@ -299,7 +299,6 @@ msgstr ""
 "effectively."
 
 #: templates/resume.html:75
-#, python-format
 msgid "80 percent complete"
 msgstr "80 percent complete"
 
@@ -308,7 +307,6 @@ msgid "HTML / HTML5"
 msgstr "HTML / HTML5"
 
 #: templates/resume.html:82 templates/resume.html:96
-#, python-format
 msgid "70 percent complete"
 msgstr "70 percent complete"
 
@@ -317,7 +315,6 @@ msgid "CSS / CSS3"
 msgstr "CSS / CSS3"
 
 #: templates/resume.html:89
-#, python-format
 msgid "60 percent complete"
 msgstr "60 percent complete"
 
@@ -330,7 +327,6 @@ msgid "Django / Python"
 msgstr "Django / Python"
 
 #: templates/resume.html:103
-#, python-format
 msgid "65 percent complete"
 msgstr "65 percent complete"
 
@@ -338,4 +334,111 @@ msgstr "65 percent complete"
 msgid "SQL / NoSQL"
 msgstr "SQL / NoSQL"
 
+#: templates/my_projects.html:6
+msgid "My Projects"
+msgstr "My Projects"
+
+#: templates/my_projects.html:10
+msgid "LGBTQ Club Website Image"
+msgstr "LGBTQ Club Website Image"
+
+#: templates/my_projects.html:14
+msgid "LGBTQ+ Club Website"
+msgstr "LGBTQ+ Club Website"
+
+#: templates/my_projects.html:16
+msgid ""
+"It is a front-end project using only HTML and CSS. The website is structured\n"
+"                                    with clear sections for Home, Events, Resources, and Find Us, prioritizing user\n"
+"                                    engagement, accessibility, and a visually appealing experience that aligns with\n"
+"                                    the community's values."
+msgstr ""
+"It is a front-end project using only HTML and CSS. The website is structured\n"
+"                                    with clear sections for Home, Events, Resources, and Find Us, prioritizing user\n"
+"                                    engagement, accessibility, and a visually appealing experience that aligns with\n"
+"                                    the community's values."
+
+#: templates/my_projects.html:23
+msgid "View Site"
+msgstr "View Site"
+
+#: templates/my_projects.html:25
+msgid "GitHub"
+msgstr "GitHub"
+
+#: templates/my_projects.html:29
+msgid "Card Game Image"
+msgstr "Card Game Image"
+
+#: templates/my_projects.html:33
+msgid "Card Memory Game"
+msgstr "Card Memory Game"
+
+#: templates/my_projects.html:35
+msgid ""
+"It is a front-end mini-game using HTML, CSS, and JavaScript. The\n"
+"                                    user-centric design and functionality provide an engaging and intuitive\n"
+"                                    experience for players, encouraging them to exercise memory skills and enjoy the\n"
+"                                    challenge of the memory card game."
+msgstr ""
+"It is a front-end mini-game using HTML, CSS, and JavaScript. The\n"
+"                                    user-centric design and functionality provide an engaging and intuitive\n"
+"                                    experience for players, encouraging them to exercise memory skills and enjoy the\n"
+"                                    challenge of the memory card game."
+
+#: templates/my_projects.html:42
+msgid "Remote Working Survey Image"
+msgstr "Remote Working Survey Image"
+
+#: templates/my_projects.html:46
+msgid "Remote Working Survey"
+msgstr "Remote Working Survey"
+
+#: templates/my_projects.html:48
+msgid ""
+"It is a Python-based project designed to collect and analyze survey data\n"
+"                                    related to remote working. Utilizing the Google Sheets API for data storage and\n"
+"                                    management, and incorporating statistical analysis with the SciPy library."
+msgstr ""
+"It is a Python-based project designed to collect and analyze survey data\n"
+"                                    related to remote working. Utilizing the Google Sheets API for data storage and\n"
+"                                    management, and incorporating statistical analysis with the SciPy library."
+
+#: templates/my_projects.html:55
+msgid "Altliebe Website Image"
+msgstr "Altliebe Website Image"
+
+#: templates/my_projects.html:59
+msgid "Altliebe"
+msgstr "Altliebe"
+
+#: templates/my_projects.html:61
+msgid ""
+"It is an online marketplace for vintage and second-hand goods where users\n"
+"                                    can buy and sell items. Built using Python, HTML, CSS, and JavaScript, it\n"
+"                                    leverages Django as its primary framework, Bootstrap, PostgreSQL and\n"
+"                                    Cloudinary."
+msgstr ""
+"It is an online marketplace for vintage and second-hand goods where users\n"
+"                                    can buy and sell items. Built using Python, HTML, CSS, and JavaScript, it\n"
+"                                    leverages Django as its primary framework, Bootstrap, PostgreSQL and\n"
+"                                    Cloudinary."
+
+#: templates/my_projects.html:68
+msgid "Mildew Detection in Cherry Leaves Website Image"
+msgstr "Mildew Detection in Cherry Leaves Website Image"
+
+#: templates/my_projects.html:72
+msgid "Mildew Detection in Cherry Leaves"
+msgstr "Mildew Detection in Cherry Leaves"
+
+#: templates/my_projects.html:74
+msgid ""
+"It is a machine learning project designed to predict whether a cherry leaf\n"
+"                                    is infected with powdery mildew using image analysis. This Python-based project\n"
+"                                    utilizes Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow and more."
+msgstr ""
+"It is a machine learning project designed to predict whether a cherry leaf\n"
+"                                    is infected with powdery mildew using image analysis. This Python-based project\n"
+"                                    utilizes Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow and more."
 

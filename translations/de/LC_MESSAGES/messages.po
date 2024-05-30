@@ -280,27 +280,24 @@ msgstr ""
 "                                effektiven Verarbeitung und Präsentation von Informationen."
 
 #: templates/resume.html:75
-#, python-format
 msgid "80 percent complete"
-msgstr "80 percent abgeschlossen"
+msgstr "80 Prozent abgeschlossen"
 
 #: templates/resume.html:77
 msgid "HTML / HTML5"
 msgstr "HTML / HTML5"
 
 #: templates/resume.html:82 templates/resume.html:96
-#, python-format
 msgid "70 percent complete"
-msgstr "70 percent abgeschlossen"
+msgstr "70 Prozent abgeschlossen"
 
 #: templates/resume.html:84
 msgid "CSS / CSS3"
 msgstr "CSS / CSS3"
 
 #: templates/resume.html:89
-#, python-format
 msgid "60 percent complete"
-msgstr "60 percent abgeschlossen"
+msgstr "60 Prozent abgeschlossen"
 
 #: templates/resume.html:91
 msgid "JavaScript / jQuery"
@@ -311,11 +308,118 @@ msgid "Django / Python"
 msgstr "Django / Python"
 
 #: templates/resume.html:103
-#, python-format
 msgid "65 percent complete"
-msgstr "65 percent abgeschlossen"
+msgstr "65 Prozent abgeschlossen"
 
 #: templates/resume.html:105
 msgid "SQL / NoSQL"
 msgstr "SQL / NoSQL"
+
+#: templates/my_projects.html:6
+msgid "My Projects"
+msgstr "Meine Projekte"
+
+#: templates/my_projects.html:10
+msgid "LGBTQ Club Website Image"
+msgstr "LGBTQ-Club-Website-Bild"
+
+#: templates/my_projects.html:14
+msgid "LGBTQ+ Club Website"
+msgstr "LGBTQ+ Club-Website"
+
+#: templates/my_projects.html:16
+msgid ""
+"It is a front-end project using only HTML and CSS. The website is structured\n"
+"                                    with clear sections for Home, Events, Resources, and Find Us, prioritizing user\n"
+"                                    engagement, accessibility, and a visually appealing experience that aligns with\n"
+"                                    the community's values."
+msgstr ""
+"Es ist ein Front-End-Projekt, das nur HTML und CSS verwendet. Die Website ist strukturiert\n"
+"                                    mit klaren Abschnitten für Startseite, Veranstaltungen, Ressourcen und Find Us, und priorisiert die Benutzer\n"
+"                                    Engagement, Barrierefreiheit und ein visuell ansprechendes Erlebnis, das den Werten der\n"
+"                                    Gemeinschaft entspricht."
+
+#: templates/my_projects.html:23
+msgid "View Site"
+msgstr "Seite anzeigen"
+
+#: templates/my_projects.html:25
+msgid "GitHub"
+msgstr "GitHub"
+
+#: templates/my_projects.html:29
+msgid "Card Game Image"
+msgstr "Kartenspiel Bild"
+
+#: templates/my_projects.html:33
+msgid "Card Memory Game"
+msgstr "Kartenerinnerungsspiel"
+
+#: templates/my_projects.html:35
+msgid ""
+"It is a front-end mini-game using HTML, CSS, and JavaScript. The\n"
+"                                    user-centric design and functionality provide an engaging and intuitive\n"
+"                                    experience for players, encouraging them to exercise memory skills and enjoy the\n"
+"                                    challenge of the memory card game."
+msgstr ""
+"Es ist ein Front-End-Minispiel, das HTML, CSS und JavaScript verwendet.\n"
+"                                    Das benutzerzentrierte Design und die Funktionalität bieten ein fesselndes und intuitives\n"
+"                                    Erlebnis für Spieler, das sie dazu ermutigt, Gedächtnisfähigkeiten zu üben und die\n"
+"                                    Herausforderung des Kartengedächtnisspiels zu genießen."
+
+#: templates/my_projects.html:42
+msgid "Remote Working Survey Image"
+msgstr "Bild der Umfrage zur Fernarbeit"
+
+#: templates/my_projects.html:46
+msgid "Remote Working Survey"
+msgstr "Umfrage zur Fernarbeit"
+
+#: templates/my_projects.html:48
+msgid ""
+"It is a Python-based project designed to collect and analyze survey data\n"
+"                                    related to remote working. Utilizing the Google Sheets API for data storage and\n"
+"                                    management, and incorporating statistical analysis with the SciPy library."
+msgstr ""
+"Es ist ein Python-basiertes Projekt, das entwickelt wurde, um Umfragedaten zu sammeln und zu analysieren\n"
+"                                    im Zusammenhang mit Fernarbeit. Nutzung der Google Sheets API für die Datenspeicherung und\n"
+"                                    Verwaltung und Einbeziehung statistischer Analysen mit der SciPy-Bibliothek."
+
+#: templates/my_projects.html:55
+msgid "Altliebe Website Image"
+msgstr "Altliebe-Website-Bild"
+
+#: templates/my_projects.html:59
+msgid "Altliebe"
+msgstr "Altliebe"
+
+#: templates/my_projects.html:61
+msgid ""
+"It is an online marketplace for vintage and second-hand goods where users\n"
+"                                    can buy and sell items. Built using Python, HTML, CSS, and JavaScript, it\n"
+"                                    leverages Django as its primary framework, Bootstrap, PostgreSQL and\n"
+"                                    Cloudinary."
+msgstr ""
+"Es ist ein Online-Marktplatz für Vintage- und Second-Hand-Waren, auf dem Benutzer\n"
+"                                    Artikel kaufen und verkaufen können. Gebaut mit Python, HTML, CSS und JavaScript,\n"
+"                                    nutzt es Django als primäres Framework, Bootstrap, PostgreSQL und\n"
+"                                    Cloudinary."
+
+#: templates/my_projects.html:68
+msgid "Mildew Detection in Cherry Leaves Website Image"
+msgstr "Bild der Mehltauerkennung in Kirschblättern"
+
+#: templates/my_projects.html:72
+msgid "Mildew Detection in Cherry Leaves"
+msgstr "Mehltauerkennung in Kirschblättern"
+
+#: templates/my_projects.html:74
+msgid ""
+"It is a machine learning project designed to predict whether a cherry leaf\n"
+"                                    is infected with powdery mildew using image analysis. This Python-based project\n"
+"                                    utilizes Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow and more."
+msgstr ""
+"Es ist ein maschinelles Lernprojekt, das entwickelt wurde, um vorherzusagen, ob ein Kirschblatt\n"
+"                                    mit Mehltau infiziert ist, indem Bildanalyse verwendet wird. Dieses Python-basierte Projekt\n"
+"                                    nutzt Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow und mehr."
 
