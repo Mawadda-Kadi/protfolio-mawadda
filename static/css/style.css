@@ -258,11 +258,22 @@ header {
 
 /* ----------------------------------------Footer */
 
-footer {
+/* footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+} */
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .cv-pdf i {
