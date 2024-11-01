@@ -4,15 +4,19 @@ from flask import Flask, render_template, request, redirect, url_for, flash,  ma
 from flask_babel import Babel, lazy_gettext as _
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Email, To, Content
+from dotenv import load_dotenv
+
 
 if os.path.exists("env.py"):
     import env
 
 app = Flask(__name__)
 
+load_dotenv()
+
 # Secret Keys
-app.secret_key = os.environ.get("SECRET_KEY")
-SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY")
+app.secret_key = os.getenv("SECRET_KEY")
+SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
 
 # Configurations for Flask-Babel
 app.config['BABEL_DEFAULT_LOCALE'] = 'de'
