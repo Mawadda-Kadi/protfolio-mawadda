@@ -47,6 +47,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -269,11 +274,12 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 20px 10px;
+    position: relative;
     bottom: 0;
     width: 100%;
     z-index: 1000;
+    margin: 0;
 }
 
 .cv-pdf i {

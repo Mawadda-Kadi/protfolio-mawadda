@@ -24,7 +24,7 @@ msgstr "Mawadda Kadi"
 
 #: templates/base.html:38
 msgid "Full Stack Developer"
-msgstr "Full Stack Entwickler"
+msgstr "Full Stack Entwicklerin"
 
 #: templates/base.html:47
 msgid "Home"
@@ -64,7 +64,7 @@ msgid ""
 "capacity for\n"
 "                    structural and design thinking."
 msgstr ""
-"Full Stack Web Entwickler. Fachkenntnisse in allem von HTML bis Heroku. "
+"Full Stack Web Entwicklerin. Fachkenntnisse in allem von HTML bis Heroku. "
 "Fähigkeit zum\n"
 "                    strukturellen und gestalterischen Denken."
 
@@ -179,7 +179,7 @@ msgstr ""
 
 #: templates/index.html:77
 msgid "Why hire me?"
-msgstr "Warum mich einstellen?"
+msgstr "Warum Sie mich einstellen sollten?"
 
 #: templates/index.html:79
 msgid ""
