@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-21 21:58+0000\n"
+"POT-Creation-Date: 2025-02-25 03:22+0000\n"
 "PO-Revision-Date: 2024-05-21 22:15+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -16,410 +16,256 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.17.0\n"
 
-#: templates/base.html:24 templates/base.html:37
 msgid "Mawadda Kadi"
 msgstr "Mawadda Kadi"
 
-#: templates/base.html:38
 msgid "Full Stack Developer"
 msgstr "Full Stack Entwicklerin"
 
-#: templates/base.html:47
 msgid "Home"
 msgstr "Startseite"
 
-#: templates/base.html:52
 msgid "Resume"
 msgstr "Lebenslauf"
 
-#: templates/base.html:58
-msgid ""
-"My\n"
-"                                        Projects"
-msgstr ""
-"Meine\n"
-"                                        Projekte"
+msgid "My\nProjects"
+msgstr "Meine\nProjekte"
 
-#: templates/base.html:64
 msgid "Contact"
 msgstr "Kontakt"
 
-#: templates/base.html:75
-msgid "German"
-msgstr "Deutsch"
-
-#: templates/base.html:77
-msgid "English"
-msgstr "Englisch"
-
-#: templates/base.html:92
 msgid "About"
-msgstr "Über"
+msgstr "Über mich"
 
-#: templates/base.html:94
-msgid ""
-"Full Stack Web Developer. Skilled in everything from HTML to Heroku. The "
-"capacity for\n"
-"                    structural and design thinking."
-msgstr ""
-"Full Stack Web Entwicklerin. Fachkenntnisse in allem von HTML bis Heroku. "
-"Fähigkeit zum\n"
-"                    strukturellen und gestalterischen Denken."
+msgid "Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for\nstructural and design thinking."
+msgstr "Full Stack Web Entwicklerin mit Fähigkeiten in allem von HTML bis Heroku. Starke analytische und kreative Denkweise."
 
-#: templates/base.html:99
 msgid "Download"
 msgstr "Herunterladen"
 
-#: templates/base.html:101
 msgid "Need a printable version of my CV? Download it here."
-msgstr "Benötigen Sie eine druckbare Version meines Lebenslaufs? Hier herunterladen."
+msgstr "Benötigen Sie eine druckbare Version meines Lebenslaufs? Laden Sie ihn hier herunter."
 
-#: templates/base.html:104
 msgid "Download link."
 msgstr "Download-Link."
 
-#: templates/base.html:109
 msgid "Social"
 msgstr "Soziale Netzwerke"
 
-#: templates/base.html:114
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: templates/base.html:120
 msgid "GitHub"
 msgstr "GitHub"
 
-#: templates/contact.html:6
 msgid "Got a project in mind?"
 msgstr "Haben Sie ein Projekt im Kopf?"
 
-#: templates/contact.html:7
 msgid "Let's work together!"
 msgstr "Lassen Sie uns zusammenarbeiten!"
 
-#: templates/contact.html:22
 msgid "Name"
 msgstr "Name"
 
-#: templates/contact.html:25
 msgid "Email"
 msgstr "E-Mail"
 
-#: templates/contact.html:27
 msgid "Project description"
 msgstr "Projektbeschreibung"
 
-#: templates/contact.html:30
 msgid "Send Project Request"
 msgstr "Projektanfrage senden"
 
-#: templates/index.html:6
 msgid "Personal Info"
 msgstr "Persönliche Informationen"
 
-#: templates/index.html:9
 msgid "Name:"
 msgstr "Name:"
 
-#: templates/index.html:17
 msgid "Address:"
 msgstr "Adresse:"
 
-#: templates/index.html:29
 msgid "Phone:"
 msgstr "Telefon:"
 
-#: templates/index.html:37
 msgid "Email:"
 msgstr "E-Mail:"
 
-#: templates/index.html:45
 msgid "About Me"
 msgstr "Über mich"
 
-#: templates/index.html:50
 msgid "What do I do?"
 msgstr "Was mache ich?"
 
-#: templates/index.html:52
-msgid ""
-"As a beginner in full stack development, I can create and manage web "
-"applications,\n"
-"                            handling both front-end and back-end tasks. "
-"Additionally, I specialize in data analysis,\n"
-"                            enabling me to extract meaningful insights "
-"and present them effectively."
-msgstr ""
-"Als Anfänger im Full Stack Development kann ich Webanwendungen erstellen und verwalten,\n"
-"                            sowohl Front-End- als auch Back-End-Aufgaben übernehmen.\n"
-"                            Darüber hinaus spezialisiere ich mich auf Datenanalyse,\n"
-"                            wodurch ich in der Lage bin, aussagekräftige Erkenntnisse zu gewinnen und diese effektiv zu präsentieren."
+msgid "As a beginner in full stack development, I can create and manage web applications, handling both front-end and back-end tasks. Additionally, I specialize in data analysis, enabling me to extract meaningful insights and present them effectively."
+msgstr "Als Anfängerin im Full Stack Development kann ich Webanwendungen erstellen und verwalten, sowohl im Front-End als auch im Back-End. Zudem bin ich auf Datenanalyse spezialisiert und kann wertvolle Erkenntnisse gewinnen und präsentieren."
 
-#: templates/index.html:63
 msgid "How do I do it?"
 msgstr "Wie mache ich das?"
 
-#: templates/index.html:65
-msgid ""
-"I use programming languages such as HTML, CSS, and JavaScript for front-"
-"end\n"
-"                            development and Python for back-end "
-"development and data analysis. A great user\n"
-"                            experience is created through effective "
-"design, along with optimized application speed,\n"
-"                            security, and reliability."
-msgstr ""
-"Ich verwende Programmiersprachen wie HTML, CSS und JavaScript für die Front-End-Entwicklung\n"
-"                            und Python für die Back-End-Entwicklung und Datenanalyse.\n"
-"                            Eine großartige Benutzererfahrung wird durch effektives Design,\n"
-"                            optimierte Anwendungsgeschwindigkeit, Sicherheit und Zuverlässigkeit geschaffen."
+msgid "I use programming languages such as HTML, CSS and SASS, JavaScript, and TypeScript, along with frameworks like React and Next.js for front-end development. For back-end development and data analysis, I work with Python, PHP, Laravel, Java, Django, and Flask. A great user experience is created through effective design, along with optimized application speed, security, and reliability."
+msgstr "Ich verwende Programmiersprachen wie HTML, CSS, SASS, JavaScript und TypeScript sowie Frameworks wie React und Next.js für die Frontend-Entwicklung. Für das Backend nutze ich Python, PHP, Laravel, Java, Django und Flask. Eine großartige Nutzererfahrung entsteht durch ein durchdachtes Design sowie optimierte Geschwindigkeit, Sicherheit und Zuverlässigkeit."
 
-#: templates/index.html:77
 msgid "Why hire me?"
-msgstr "Warum Sie mich einstellen sollten?"
+msgstr "Warum sollten Sie mich einstellen?"
 
-#: templates/index.html:79
-msgid ""
-"I am highly motivated to learn and apply new skills, bringing fresh ideas"
-" and\n"
-"                            enthusiasm to your team. My unique "
-"combination of full stack development and data\n"
-"                            analysis expertise allows me to approach "
-"problems from multiple angles, providing\n"
-"                            well-rounded solutions. I can also work "
-"independently to ensure these qualities are\n"
-"                            consistently met."
-msgstr ""
-"Ich bin hochmotiviert, neue Fähigkeiten zu erlernen und anzuwenden,\n"
-"                            und bringe frische Ideen und Begeisterung in Ihr Team.\n"
-"                            Meine einzigartige Kombination aus Full Stack Development und Datenanalyse-Expertise\n"
-"                            ermöglicht es mir, Probleme aus verschiedenen Blickwinkeln anzugehen und umfassende Lösungen zu bieten.\n"
-"                            Ich kann auch unabhängig arbeiten, um sicherzustellen, dass diese Qualitäten stets erfüllt werden."
+msgid "I am highly motivated to learn and apply new skills, bringing fresh ideas and enthusiasm to your team. My unique combination of full stack development and data analysis expertise allows me to approach problems from multiple angles, providing well-rounded solutions. I can also work independently to ensure these qualities are consistently met."
+msgstr "Ich bin hochmotiviert, neue Fähigkeiten zu erlernen und anzuwenden, um frische Ideen und Begeisterung in Ihr Team zu bringen. Meine Kombination aus Full Stack Entwicklung und Datenanalyse ermöglicht es mir, Probleme aus verschiedenen Blickwinkeln zu betrachten und umfassende Lösungen zu bieten. Zudem arbeite ich eigenständig und zuverlässig."
 
-#: templates/resume.html:8
-msgid "My History"
-msgstr "Meine Geschichte"
-
-#: templates/resume.html:13
-msgid "Code Institute in Dublin"
-msgstr "Code Institute in Dublin"
-
-#: templates/resume.html:14
-msgid "Attended an online course in Full Stack Development"
-msgstr "Einen Online-Kurs in Full Stack Development besucht"
-
-#: templates/resume.html:17
-msgid "Alpha School in Halle, Germany"
-msgstr "Alpha Schule in Halle, Deutschland"
-
-#: templates/resume.html:18
-msgid "Attended a German language course from A1 to C1"
-msgstr "Einen Deutschkurs von A1 bis C1 besucht"
-
-#: templates/resume.html:21
-msgid ""
-"Unified Security Operations Center (911) in the Makkah Region, Saudi "
-"Arabia"
-msgstr "Unified Security Operations Center (911) in der Region Mekka, Saudi-Arabien"
-
-#: templates/resume.html:22
-msgid "Worked as an emergency call operator"
-msgstr "Mitarbeiterin der Notrufannahme"
-
-#: templates/resume.html:25
-msgid "Effat University in Saudi Arabia"
-msgstr "Effat Universität in Saudi-Arabien"
-
-#: templates/resume.html:26
-msgid "Administrative Assistant in the Quality Control Department"
-msgstr "Verwaltungsassistentin im Dekanat für Qualitätskontrolle"
-
-#: templates/resume.html:33
-msgid "My Skills"
-msgstr "Meine Fähigkeiten"
-
-#: templates/resume.html:43
-msgid "Front End"
-msgstr "Front End"
-
-#: templates/resume.html:45
-msgid ""
-"I possess relatively strong front-end development skills, including HTML,"
-" CSS,\n"
-"                                and JavaScript. I am also experienced "
-"with frameworks such as Bootstrap for\n"
-"                                responsive design, enabling me to create "
-"visually appealing and functional user\n"
-"                                interfaces."
-msgstr ""
-"Ich besitze relativ starke Front-End-Entwicklungsfähigkeiten, einschließlich HTML,\n"
-"                                CSS und JavaScript. Ich habe auch Erfahrung mit Frameworks wie Bootstrap für\n"
-"                                responsives Design, was es mir ermöglicht, visuell ansprechende und funktionale Benutzeroberflächen zu erstellen."
-
-#: templates/resume.html:59
-msgid "Back End"
-msgstr "Back End"
-
-#: templates/resume.html:61
-msgid ""
-"I specialize in developing data-driven web applications, focusing on "
-"utilizing\n"
-"                                document-based data. My back-end skills "
-"include using Python, Flask, and Django for\n"
-"                                robust web development, along with data "
-"analysis tools like Pandas and NumPy to\n"
-"                                process and present information "
-"effectively."
-msgstr ""
-"Ich spezialisiere mich auf die Entwicklung datengetriebener Webanwendungen und konzentriere mich dabei auf die Nutzung\n"
-"                                dokumentbasierter Daten. Meine Back-End-Fähigkeiten umfassen die Verwendung von Python, Flask und Django für\n"
-"                                robuste Webentwicklung sowie Datenanalysetools wie Pandas und NumPy zur\n"
-"                                effektiven Verarbeitung und Präsentation von Informationen."
-
-#: templates/resume.html:75
-msgid "80 percent complete"
-msgstr "80 Prozent abgeschlossen"
-
-#: templates/resume.html:77
-msgid "HTML / HTML5"
-msgstr "HTML / HTML5"
-
-#: templates/resume.html:82 templates/resume.html:96
-msgid "70 percent complete"
-msgstr "70 Prozent abgeschlossen"
-
-#: templates/resume.html:84
-msgid "CSS / CSS3"
-msgstr "CSS / CSS3"
-
-#: templates/resume.html:89
-msgid "60 percent complete"
-msgstr "60 Prozent abgeschlossen"
-
-#: templates/resume.html:91
-msgid "JavaScript / jQuery"
-msgstr "JavaScript / jQuery"
-
-#: templates/resume.html:98
-msgid "Django / Python"
-msgstr "Django / Python"
-
-#: templates/resume.html:103
-msgid "65 percent complete"
-msgstr "65 Prozent abgeschlossen"
-
-#: templates/resume.html:105
-msgid "SQL / NoSQL"
-msgstr "SQL / NoSQL"
-
-#: templates/my_projects.html:6
 msgid "My Projects"
 msgstr "Meine Projekte"
 
-#: templates/my_projects.html:10
-msgid "LGBTQ Club Website Image"
-msgstr "LGBTQ-Club-Website-Bild"
-
-#: templates/my_projects.html:14
-msgid "LGBTQ+ Club Website"
-msgstr "LGBTQ+ Club-Website"
-
-#: templates/my_projects.html:16
-msgid ""
-"It is a front-end project using only HTML and CSS. The website is structured\n"
-"                                    with clear sections for Home, Events, Resources, and Find Us, prioritizing user\n"
-"                                    engagement, accessibility, and a visually appealing experience that aligns with\n"
-"                                    the community's values."
-msgstr ""
-"Es ist ein Front-End-Projekt, das nur HTML und CSS verwendet. Die Website ist strukturiert\n"
-"                                    mit klaren Abschnitten für Startseite, Veranstaltungen, Ressourcen und Find Us, und priorisiert die Benutzer\n"
-"                                    Engagement, Barrierefreiheit und ein visuell ansprechendes Erlebnis, das den Werten der\n"
-"                                    Gemeinschaft entspricht."
-
-#: templates/my_projects.html:23
 msgid "View Site"
 msgstr "Seite anzeigen"
 
-#: templates/my_projects.html:25
-msgid "GitHub"
-msgstr "GitHub"
+msgid "My History"
+msgstr "Meine Geschichte"
 
-#: templates/my_projects.html:29
-msgid "Card Game Image"
-msgstr "Kartenspiel Bild"
+msgid "Completed an internship"
+msgstr "Ein Praktikum abgeschlossen"
 
-#: templates/my_projects.html:33
-msgid "Card Memory Game"
-msgstr "Kartenerinnerungsspiel"
+msgid "Attended an online course in Full Stack Development"
+msgstr "Einen Online-Kurs in Full Stack Development absolviert"
 
-#: templates/my_projects.html:35
-msgid ""
-"It is a front-end mini-game using HTML, CSS, and JavaScript. The\n"
-"                                    user-centric design and functionality provide an engaging and intuitive\n"
-"                                    experience for players, encouraging them to exercise memory skills and enjoy the\n"
-"                                    challenge of the memory card game."
-msgstr ""
-"Es ist ein Front-End-Minispiel, das HTML, CSS und JavaScript verwendet.\n"
-"                                    Das benutzerzentrierte Design und die Funktionalität bieten ein fesselndes und intuitives\n"
-"                                    Erlebnis für Spieler, das sie dazu ermutigt, Gedächtnisfähigkeiten zu üben und die\n"
-"                                    Herausforderung des Kartengedächtnisspiels zu genießen."
+msgid "Attended a German language course from A1 to C1"
+msgstr "Einen Deutschkurs von A1 bis C1 absolviert"
 
-#: templates/my_projects.html:42
-msgid "Remote Working Survey Image"
-msgstr "Bild der Umfrage zur Fernarbeit"
+msgid "Worked as an emergency call operator"
+msgstr "Als Notrufdisponentin gearbeitet"
 
-#: templates/my_projects.html:46
-msgid "Remote Working Survey"
-msgstr "Umfrage zur Fernarbeit"
+msgid "Administrative Assistant in the Quality Control Department"
+msgstr "Verwaltungsassistentin in der Qualitätskontrolle"
 
-#: templates/my_projects.html:48
-msgid ""
-"It is a Python-based project designed to collect and analyze survey data\n"
-"                                    related to remote working. Utilizing the Google Sheets API for data storage and\n"
-"                                    management, and incorporating statistical analysis with the SciPy library."
-msgstr ""
-"Es ist ein Python-basiertes Projekt, das entwickelt wurde, um Umfragedaten zu sammeln und zu analysieren\n"
-"                                    im Zusammenhang mit Fernarbeit. Nutzung der Google Sheets API für die Datenspeicherung und\n"
-"                                    Verwaltung und Einbeziehung statistischer Analysen mit der SciPy-Bibliothek."
+msgid "My Skills"
+msgstr "Meine Fähigkeiten"
 
-#: templates/my_projects.html:55
+msgid "Front End"
+msgstr "Front-End"
+
+msgid "Back End"
+msgstr "Back-End"
+
+msgid "HTML / HTML5"
+msgstr "HTML / HTML5"
+
+msgid "CSS / CSS3"
+msgstr "CSS / CSS3"
+
+msgid "JavaScript / jQuery"
+msgstr "JavaScript / jQuery"
+
+msgid "Django / Python"
+msgstr "Django / Python"
+
+msgid "Java"
+msgstr "Java"
+
+msgid "SQL / NoSQL"
+msgstr "SQL / NoSQL"
+
+msgid "PHP"
+msgstr "PHP"
+
+msgid "TypeScript"
+msgstr "TypeScript"
+
+msgid "German"
+msgstr "Deutsch"
+
+msgid "English"
+msgstr "Englisch"
+
+msgid "My Projects"
+msgstr "Meine Projekte"
+
+msgid "Frozen Moments Portfolio Image"
+msgstr "Bild des Frozen Moments Portfolios"
+
+msgid "Frozen Moments Portfolio"
+msgstr "Frozen Moments Portfolio"
+
+msgid "It is a front-end portfolio website built with Next.js, React, TypeScript, and SASS. Designed for a professional photographer, the site showcases event photography with an elegant UI, interactive galleries, and a responsive layout for an immersive viewing experience."
+msgstr "Es ist eine Frontend-Portfolio-Website, die mit Next.js, React, TypeScript und SASS entwickelt wurde. Die Website wurde für eine professionelle Fotografin entworfen und präsentiert Eventfotografie mit einer eleganten Benutzeroberfläche, interaktiven Galerien und einem responsiven Layout für ein immersives Seherlebnis."
+
+msgid "Quiz App Game Image"
+msgstr "Bild der Quiz-App"
+
+msgid "Quiz App"
+msgstr "Quiz-App"
+
+msgid "It is a full-stack web application built with Laravel, PHP, HTML, CSS (SASS), and JavaScript. The app allows users to take quizzes in various categories, track scores, and compete on a leaderboard. It features real-time feedback, authentication, and a responsive design for an engaging quiz experience."
+msgstr "Es ist eine Full-Stack-Webanwendung, die mit Laravel, PHP, HTML, CSS (SASS) und JavaScript entwickelt wurde. Die App ermöglicht es Benutzern, Quizfragen in verschiedenen Kategorien zu beantworten, Punkte zu verfolgen und auf einer Bestenliste zu konkurrieren. Sie bietet Echtzeit-Feedback, Authentifizierung und ein responsives Design für ein interaktives Quiz-Erlebnis."
+
+msgid "Bing Card Game Image"
+msgstr "Bild des Bingo-Kartenspiels"
+
+msgid "Bingo Card Game"
+msgstr "Bingo-Kartenspiel"
+
+msgid "It is a front-end web game built with HTML, CSS, and JavaScript. The game allows users to generate Bingo cards, draw numbers, and check for winning conditions. It includes text-to-speech announcements and a mute option for accessibility."
+msgstr "Es ist ein Frontend-Webspiel, das mit HTML, CSS und JavaScript entwickelt wurde. Das Spiel ermöglicht es den Benutzern, Bingokarten zu generieren, Zahlen zu ziehen und Gewinnbedingungen zu überprüfen. Es enthält Sprachausgabe und eine Stummschaltoption für Barrierefreiheit."
+
+msgid "Mildew Detection in Cherry Leaves Website Image"
+msgstr "Bild der Mehltauerkennung bei Kirschblättern"
+
+msgid "Mildew Detection in Cherry Leaves"
+msgstr "Mehltauerkennung bei Kirschblättern"
+
+msgid "It is a machine learning project designed to predict whether a cherry leaf is infected with powdery mildew using image analysis. This Python-based project utilizes Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow and more."
+msgstr "Es ist ein Machine-Learning-Projekt zur Vorhersage, ob ein Kirschblatt mit Mehltau infiziert ist, basierend auf Bildanalyse. Dieses Python-basierte Projekt verwendet Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow und mehr."
+
 msgid "Altliebe Website Image"
-msgstr "Altliebe-Website-Bild"
+msgstr "Bild der Altliebe-Website"
 
-#: templates/my_projects.html:59
 msgid "Altliebe"
 msgstr "Altliebe"
 
-#: templates/my_projects.html:61
-msgid ""
-"It is an online marketplace for vintage and second-hand goods where users\n"
-"                                    can buy and sell items. Built using Python, HTML, CSS, and JavaScript, it\n"
-"                                    leverages Django as its primary framework, Bootstrap, PostgreSQL and\n"
-"                                    Cloudinary."
-msgstr ""
-"Es ist ein Online-Marktplatz für Vintage- und Second-Hand-Waren, auf dem Benutzer\n"
-"                                    Artikel kaufen und verkaufen können. Gebaut mit Python, HTML, CSS und JavaScript,\n"
-"                                    nutzt es Django als primäres Framework, Bootstrap, PostgreSQL und\n"
-"                                    Cloudinary."
+msgid "It is an online marketplace for vintage and second-hand goods where users can buy and sell items. Built using Python, HTML, CSS, and JavaScript, it leverages Django as its primary framework, Bootstrap, PostgreSQL and Cloudinary."
+msgstr "Es ist ein Online-Marktplatz für Vintage- und Second-Hand-Artikel, auf dem Benutzer Waren kaufen und verkaufen können. Entwickelt mit Python, HTML, CSS und JavaScript, verwendet es Django als Hauptframework, sowie Bootstrap, PostgreSQL und Cloudinary."
 
-#: templates/my_projects.html:68
-msgid "Mildew Detection in Cherry Leaves Website Image"
-msgstr "Bild der Mehltauerkennung in Kirschblättern"
+msgid "Remote Working Survey Image"
+msgstr "Bild der Fernarbeitsumfrage"
 
-#: templates/my_projects.html:72
-msgid "Mildew Detection in Cherry Leaves"
-msgstr "Mehltauerkennung in Kirschblättern"
+msgid "Remote Working Survey"
+msgstr "Fernarbeitsumfrage"
 
-#: templates/my_projects.html:74
-msgid ""
-"It is a machine learning project designed to predict whether a cherry leaf\n"
-"                                    is infected with powdery mildew using image analysis. This Python-based project\n"
-"                                    utilizes Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow and more."
-msgstr ""
-"Es ist ein maschinelles Lernprojekt, das entwickelt wurde, um vorherzusagen, ob ein Kirschblatt\n"
-"                                    mit Mehltau infiziert ist, indem Bildanalyse verwendet wird. Dieses Python-basierte Projekt\n"
-"                                    nutzt Jupyter Notebook, Streamlit, NumPy, Pandas, TensorFlow und mehr."
+msgid "It is a Python-based project designed to collect and analyze survey data related to remote working. Utilizing the Google Sheets API for data storage and management, and incorporating statistical analysis with the SciPy library."
+msgstr "Es ist ein Python-basiertes Projekt zur Erfassung und Analyse von Umfragedaten zum Thema Fernarbeit. Es nutzt die Google Sheets API zur Datenspeicherung und -verwaltung und integriert statistische Analysen mit der SciPy-Bibliothek."
 
+msgid "Card Game Image"
+msgstr "Bild des Kartenspiels"
+
+msgid "Card Memory Game"
+msgstr "Kartengedächtnisspiel"
+
+msgid "It is a front-end mini-game using HTML, CSS, and JavaScript. The user-centric design and functionality provide an engaging and intuitive experience for players, encouraging them to exercise memory skills and enjoy the challenge of the memory card game."
+msgstr "Es ist ein Frontend-Minispiel, das HTML, CSS und JavaScript verwendet. Das benutzerfreundliche Design und die Funktionalität bieten ein unterhaltsames und intuitives Spielerlebnis, das die Gedächtnisfähigkeiten fördert und die Herausforderung eines Gedächtnisspiels bietet."
+
+msgid "LGBTQ Club Website Image"
+msgstr "Bild der LGBTQ-Club-Website"
+
+msgid "LGBTQ+ Club Website"
+msgstr "LGBTQ+ Club-Website"
+
+msgid "It is a front-end project using only HTML and CSS. The website is structured with clear sections for Home, Events, Resources, and Find Us, prioritizing user engagement, accessibility, and a visually appealing experience that aligns with the community's values."
+msgstr "Es ist ein Frontend-Projekt, das nur HTML und CSS verwendet. Die Website ist mit klaren Abschnitten für Startseite, Veranstaltungen, Ressourcen und Standortinformationen strukturiert und legt den Fokus auf Benutzerfreundlichkeit, Barrierefreiheit und ein visuell ansprechendes Design, das mit den Werten der Community übereinstimmt."
+
+msgid "Got a project in mind?"
+msgstr "Haben Sie ein Projekt im Kopf?"
+
+msgid "Let's work together!"
+msgstr "Lassen Sie uns zusammenarbeiten!"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Project description"
+msgstr "Projektbeschreibung"
+
+msgid "Send Project Request"
+msgstr "Projektanfrage senden"
