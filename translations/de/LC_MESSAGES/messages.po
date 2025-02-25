@@ -30,8 +30,8 @@ msgstr "Startseite"
 msgid "Resume"
 msgstr "Lebenslauf"
 
-msgid "My\nProjects"
-msgstr "Meine\nProjekte"
+msgid "My Projects"
+msgstr "Meine Projekte"
 
 msgid "Contact"
 msgstr "Kontakt"
